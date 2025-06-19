@@ -7,7 +7,8 @@ This project predicts a student's **math score** based on their background and t
 
 #### 🌐 Render Deployment (Recommended for Web Hosting)
 
-🔗 **Live App on Render**: [https://student-performance.render.com](https://student-performance.render.com)
+🔗 **Live App on Render**: [https://student-performance-predictor-4qxb.onrender.com]
+                          : [https://student-performance-predictor-4qxb.onrender.com/predictdata]
 
 👉 Click above to try it live!
 
@@ -25,7 +26,7 @@ This project predicts a student's **math score** based on their background and t
 services:
   - type: web
     name: student-performance
-    env: python
+    env: python/docker
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python app.py"
     plan: free
@@ -42,14 +43,14 @@ docker pull bhargava1420/student-performance:latest
 docker run -p 5000:5000 bhargava1420/student-performance
 ```
 
-Visit [http://localhost:5000](http://localhost:5000) in your browser.
+Visit [http://localhost:5000] in your browser.
 
 ---
 
 ### 🧠 ML Model Info
 
 * **Models Tried**: Linear Regression, Lasso, Ridge, Decision Tree, Random Forest, XGBoost, CatBoost, SVR, KNN
-* **Final Model Used**: **Linear Regression**
+* **Finally Used Model**: **Linear Regression**
 * **Target Variable**: `Math Score`
 
 **Features Used**:
@@ -61,14 +62,6 @@ Visit [http://localhost:5000](http://localhost:5000) in your browser.
 * Test Preparation Course
 * Reading Score
 * Writing Score
-
----
-
-### 🖼️ App Screenshot
-
-![App Screenshot](assets/screenshot.png)
-
----
 
 ### 📁 Folder Structure
 
@@ -129,6 +122,5 @@ python app.py
 ### 👤 Author
 
 **Bhargava Kakkera**
-📍 ECE Student at NIT Durgapur
 🔗 GitHub: [BhargavaKakkera](https://github.com/BhargavaKakkera/Student_Performance_Indicator)
 ✉️ Email: [bhargavakakkera@gmail.com](mailto:bhargavakakkera@gmail.com)
