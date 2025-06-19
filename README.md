@@ -7,8 +7,8 @@ This project predicts a student's **math score** based on their background and t
 
 #### 🌐 Render Deployment (Recommended for Web Hosting)
 
-🔗 **Live App on Render**: [https://student-performance-predictor-4qxb.onrender.com]
-                          : [https://student-performance-predictor-4qxb.onrender.com/predictdata]
+🔗 **Live App on Render**: [https://student-performance-predictor-0lak.onrender.com/]
+                          : [https://student-performance-predictor-0lak.onrender.com/predictdata]
 
 👉 Click above to try it live!
 
