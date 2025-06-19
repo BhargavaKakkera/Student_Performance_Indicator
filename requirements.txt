@@ -3,7 +3,6 @@ pandas
 seaborn
 matplotlib
 scikit-learn==1.6.1
-catboost
 dill
 Flask
 # -e .
